@@ -1,0 +1,47 @@
+@charset="UTF-8";
+form{ 
+width: 600px;
+margin: auto;
+font-family: sans-serif;
+font-weight:normal;
+font-size: 16 pt;
+background-color: #DF2525;
+}
+
+p
+{
+color:white;
+position: center;	
+font-size: 20 pt;	
+}
+
+
+input, textarea, select{
+font-family: sans-serif;
+font-weight:normal;
+font-size: 13 pt;
+}
+
+
+legend {
+Font-family: sans-serif;
+font-weight: bold;
+font-size: 20 pt;
+}
+
+
+fieldset {
+border-color: white;
+margin: 20px;
+color: white;
+background-color: #950A0A;
+
+}
+fieldset#sexo {
+width: 150px;
+}
+
+body
+{
+background-image: url(coracao.jpg);
+}

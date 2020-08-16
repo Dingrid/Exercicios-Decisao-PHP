@@ -1,0 +1,281 @@
+<html>
+<head>
+<title>Formulário</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<form method="GET" id="formulario" action="script.php" >
+<fieldset id="Ex1">
+<legend> Exercício 1- Média Ponderada </legend>
+
+<p><label for="n1">Insira a primeira nota:</label> <input type="text" name="nota1" id="n1"  size="20" maxlength="20" placeholder=" Trabalho de laboratório" />
+</p> 
+
+<p><label for="n2">Insira a segunda nota:</label> <input type="text" name="nota2" id="n2"  size="20" maxlength="20" placeholder=" Avaliação Semestral" />
+</p> 
+
+<p><label for="n3">Insira a terceira nota:</label> <input type="text" name="nota3" id="n3"  size="20" maxlength="20" placeholder=" Exame Final" />
+</p> 
+</fieldset>
+
+
+<fieldset id="Ex2">
+<legend> Exercício 2- Média de um aluno </legend>
+
+<p><label for="n1">Insira a primeira nota:</label> <input type="text" name="n1" id="nota1" size="20" maxlength="20" placeholder=" Digite um número" />
+</p> 
+
+<p><label for="n1">Insira a segunda nota:</label> <input type="text" name="n2" id="nota2" size="20" maxlength="20" placeholder=" Digite um número" />
+</p> 
+
+<p><label for="n1">Insira a terceira nota:</label> <input type="text" name="n3" id="nota3" size="20" maxlength="20" placeholder=" Digite um número" />
+</p>  
+</fieldset>
+
+<fieldset id="Ex3">
+<legend> Exercício 3- Número maior </legend>
+
+<p><label for="n1">Insira um número</label> <input type="number" name="l" id="n1" size="20" maxlength="20" placeholder=" Digite um número" />
+</p> 
+
+<p><label for="n2">Insira um número</label><input type="number" name="m" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+</fieldset>
+
+<fieldset id="Ex4">
+<legend> Exercício 4- Ordem crescente </legend>
+
+<p><label for="n1">Insira um número</label><input type="number" name="a" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">Insira um número</label><input type="number" name="b" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n3">Insira um número</label><input type="number" name="c" id="n3" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+</fieldset>
+
+<fieldset id="Ex5">
+<legend> Exercício 5- Números em ordem crescente </legend>
+
+<p><label for="n1">Insira um número em ordem crescente</label><input type="number" name="num1" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">Insira um número em ordem crescente</label><input type="number" name="num2" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n3">Insira um número em ordem crescente</label><input type="number" name="num3" id="n3" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n4">Insira um número em ordem aleatória</label><input type="number" name="num4" id="n4" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+</fieldset>
+
+<fieldset id="Ex6">
+<legend> Exercício 6- Ímpar ou Par </legend>
+
+<p><label for="val">Digite um valor</label><input type="number" name="valor" id="val" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+</fieldset>
+
+<fieldset id="Ex7">
+<legend> Exercício 7- Ordem </legend>
+Sendo: 1- Ordem Crescente, 2- Ordem decrescente e 3- O maior fica entre os outros dos números
+<p><label for="n1">Insira um número</label><input type="number" name="a" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">Insira um número</label><input type="number" name="b" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n3">Insira um número</label><input type="number" name="c" id="n3" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="i">Dê um valor de 1 a 3 para I</label><input type="number" name="ival" id="i" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+</fieldset>
+
+<fieldset id="Ex8">
+
+<legend>Exercício 8- Opções</legend>
+<p><label for="num">Digite um número</label><input type="number" name="num1" id="num" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+<p><label for="num2">Digite um número</label><input type="number" name="num2" id="num" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<input type="radio" value= "soma" name="calcula" id="soma"  checked /> 
+<label value="soma" for="soma">Soma dois números</label><br />
+<input type="radio" value="raizq" name="calcula" id="raizq" /> 
+<label value="raizq" for="raizq">Raiz quadrada</label>
+</fieldset>
+
+
+<fieldset id="Ex10">
+<legend>Exercício 10- Data </legend>
+<p><label for="data1">Escolha uma data:</label><input type="date" name="data1" id="data1" /> </p> 
+<p><label for="data2">Escolha uma data:</label><input type="date" name="data2" id="data2" /> </p> 
+
+</fieldset>
+
+<fieldset id="Ex11">
+<legend>Exercício 11- Hora de um jogo</legend>
+<p><label for="hora">Hora inicial:</label><input type="number" name="horai" id="hora" /> </p> 
+<p><label for="min">Minuto inicial:</label><input type="number" name="mini" id="min" /> </p> 
+<p><label for="hora">Hora final:</label><input type="number" name="horaf" id="hora" /> </p> 
+<p><label for="min">Minuto final:</label><input type="number" name="minf" id="min" /> </p> 
+
+</fieldset>
+
+<fieldset id="Ex12">
+<legend>Exercício 12- Cargo e salário de um funcionário</legend>
+<p><label for="sal">Salário: R$</label><input type="text" name="salario" id="sal" /> </p> 
+<input type="radio" value= "Escrituario" name="cargo" id="escritu"  checked /> 
+<label value="escritu" for="escritu">Escrituário</label><br />
+<input type="radio" value="Secretario" name="cargo" id="secre" /> 
+<label value="secre" for="secre">Secretário</label>
+<input type="radio" value= "Caixa" name="cargo" id="caixa"  /> 
+<label value="caixa" for="caixa">Caixa</label><br />
+<input type="radio" value="Gerente" name="cargo" id="gere" /> 
+<label value="gere" for="secre">Gerente</label>
+<input type="radio" value="Diretor" name="cargo" id="dire" /> 
+<label value="dire" for="dire">Diretor</label>
+
+
+</fieldset>
+<fieldset id="Ex13">
+<legend>Exercício 13- Menu do salário</legend>
+<p><label for="sal">Salário: R$</label><input type="text" name="salario13" id="sal" /> </p> 
+
+<input type="radio" value="imposto" name="opcao" id="imp" checked /> 
+<label value="imposto" for="imp">Imposto</label>
+<input type="radio" value="novosal" name="opcao" id="novo" /> 
+<label value="novo" for="novo">Novo salário</label>
+<input type="radio" value="classificacao" name="opcao" id="classificacao" /> 
+<label value="classificacao" for="classificacao">Classificação</label>
+
+</fieldset>
+<fieldset id="Ex14">
+<legend>Exercício 14- Novo salário</legend>
+<p><label for="sal">Salário atual: R$</label><input type="text" name="salario" id="sal" /> </p> 
+
+</fieldset>
+<fieldset id="Ex15">
+<legend>Exercício 15- Salário líquido de um funcionário</legend>
+<p><label for="sal">Salário mínimo: R$</label><input type="text" name="salmin" id="sal" /> </p> 
+<p><label for="hora">Número de horas trabalhadas:</label><input type="text" name="horatrab" id="hora" /> </p> 
+<p><label for="hora">Número de horas extra trabalhadas:</label><input type="text" name="horaextra" id="hora" /> </p> 
+<p><label for="depende">Número de dependentes:</label><input type="number" name="dependente" id="depende" /> </p> 
+
+</fieldset>
+<fieldset id="Ex16">
+<legend>Exercício 16- Produtos do supermercado</legend>
+<p><label for="prod">Preço atual do produto: R$</label><input type="text" name="produto" id="prod" /> </p> 
+<p><label for="media">Venda média mensal do produto: </label><input type="text" name="media" id="media" /> </p> 
+
+</fieldset>
+
+<fieldset id="Ex17">
+<legend> Exercício 17- Equação de 2º grau </legend>
+
+<p><label for="n1">Insira um número para A</label><input type="number" name="a" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">Insira um número para B</label><input type="number" name="b" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n3">Insira um número para C</label><input type="number" name="c" id="n3" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+</fieldset>
+<fieldset id="Ex18">
+<legend> Exercício 18- Triângulo  </legend>
+
+<p><label for="n1">Insira um valor para X</label><input type="text" name="x" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">Insira um valor para Y</label><input type="text" name="y" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n3">Insira um valor para Z</label><input type="text" name="z" id="n3" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+
+</fieldset>
+<fieldset id="Ex19">
+<legend> Exercício 19- Altura e peso </legend>
+
+<p><label for="n1">Altura em metros:</label><input type="text" name="altura" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">Peso em kg</label><input type="text" name="peso" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+
+</fieldset>
+<fieldset id="Ex20">
+<legend> Exercício 20- Imposto de um produto  </legend>
+
+<p><label for="n1">Código do produto comprado (um número entre 1 e 10)</label><input type="text" name="codpro" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">O peso do produto em quilos</label><input type="text" name="peso" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n3">Código do país de origem (um número entre 1 e 3)</label><input type="text" name="pais" id="n3" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+
+</fieldset>
+<fieldset id="Ex21">
+<legend> Exercício 21- Imposto de uma carga  </legend>
+
+<p><label for="n1">Código da carga (um número entre 10 e 40) </label><input type="text" name="codcarga" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">O peso da carga em toneladas </label><input type="text" name="pesocarga" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n3">Código do estado de origem (um número entre 1 e 5)</label><input type="text" name="estado" id="n3" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+</fieldset>
+<fieldset id="Ex22">
+<legend> Exercício 22- Salário total de um funcionário  </legend>
+
+<p><label for="n1">Salário base: R$</label><input type="text" name="salbase" id="n1" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+<p><label for="n2">Tempo de serviço do funcionário </label><input type="text" name="tempo" id="n2" size="20" maxlength="20" placeholder=" Digite um número" /> </p> 
+
+
+</fieldset>
+<fieldset id="Ex23">
+<legend> Exercício 23- Salário de um funcionário  </legend>
+<p><label for="sal">Salário mínimo: R$</label><input type="text" name="salminimo" id="sal" /> </p> 
+<p><label for="hora">Número de horas trabalhadas no mês:</label><input type="text" name="horatrabalhadas" id="hora" /> </p> 
+
+<p>Turno:</p>
+<input type="radio" value="matutino" name="turno" id="matutino" checked /> 
+<label value="matutino" for="mat">Matutino</label>
+<input type="radio" value="vespertino" name="turno" id="vespertino" /> 
+<label value="vespertino" for="ves">Vespertino</label>
+<input type="radio" value="noturno" name="turno" id="noturno" /> 
+<label value="noturno" for="not">Noturno</label>
+
+<p>Categoria:</p>
+<input type="radio" value="gerente" name="categoria" id="gerente" checked /> 
+<label value="gerente" for="ger">Gerente</label>
+<input type="radio" value="operario" name="categoria" id="operario" /> 
+<label value="operario" for="ope">Operário</label>
+
+
+</fieldset>
+<fieldset id="Ex24">
+<legend> Exercício 24- Produto  </legend>
+<p><label for="sal">Preço do produto: R$</label><input type="text" name="preco" id="preco" /> </p> 
+
+<p>Tipo:<p>
+<input type="radio" value="alimento" name="tipo" id="alimento" checked /> 
+<label value="alimento" for="ali">Alimentício</label>
+<input type="radio" value="limpeza" name="tipo" id="limpeza" /> 
+<label value="limpeza" for="limp">Limpeza</label>
+<input type="radio" value="vestuario" name="tipo" id="vestuario" /> 
+<label value="vestuario" for="vestu">Vestuário</label>
+
+<p>Refrigeração</p>
+<input type="radio" value="sim" name="refrigeracao" id="sim" checked /> 
+<label value="precisa" for="sim">Precisa</label>
+<input type="radio" value="nao" name="refrigeracao" id="nao" /> 
+<label value="nao" for="nao">Não precisa</label>
+
+</fieldset>
+<fieldset id="Ex25">
+<legend> Exercício 25- Ângulo  </legend>
+<p><label for="angulo">Ângulo: </label><input type="number" name="angulo" id="number" /> </p> 
+
+</fieldset>
+
+<input type="reset" name="tReset" value="Resetar" />	
+<input type="submit" name="tEnviar" value="Enviar" />	
+
+</form>
+
+
+
+</body>
+</html>
